@@ -3,8 +3,8 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
-      <h2>This is home.</h2>
+    <div className="d-flex justify-content-center mt-5 pt-5 text-uppercase fw-bold">
+      <h1 className="mt-5 pt-5">This is home.</h1>
     </div>
   );
 };

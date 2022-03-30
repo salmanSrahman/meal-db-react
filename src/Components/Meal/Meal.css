@@ -1,0 +1,12 @@
+.meal-card {
+      cursor: pointer;
+
+}
+
+.meal-card h4 {
+      transition: all linear 0.2s
+}
+
+.meal-card:hover h4 {
+      color: goldenrod;
+}
