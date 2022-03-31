@@ -4,7 +4,6 @@ import "./Meal.css";
 import { useNavigate } from "react-router-dom";
 
 const Meal = ({ meal }) => {
-  console.log(meal);
   const { idMeal, strMeal, strMealThumb } = meal;
   const navigate = useNavigate();
   const showDetails = () => {
