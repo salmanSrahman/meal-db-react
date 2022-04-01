@@ -16,7 +16,7 @@ const Meals = () => {
       <Container>
         <Row md={4} xs={2}>
           {meals.map((meal) => (
-            <Meal meal={meal}></Meal>
+            <Meal key={meal.idMeal} meal={meal}></Meal>
           ))}
         </Row>
       </Container>
